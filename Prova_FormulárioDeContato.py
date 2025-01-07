@@ -19,7 +19,7 @@ def main(page: ft.Page):
     nome = ft.TextField(label="Nome", width=200)
     email = ft.TextField(label="E-mail", width=200)
     mensagem = ft.TextField(label="Mensagem", width=200, height=100, multiline=True)
-    MensagemConfirmação = ft.Text("Mensagem Enviada com Sucesso", color="green", visible=False)
+    MensagemConfirmação = ft.Text("Formulario Enviado com Sucesso", color="green", visible=False)
     
     page.add(
         ft.Text("Formulário de Contato", color=ft.colors.BLUE, weight=ft.FontWeight.BOLD, size="20px"),
